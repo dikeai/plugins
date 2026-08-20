@@ -23,6 +23,20 @@ Then, inside Claude Code:
 /plugin install dike-legal-search@dike-plugins
 ```
 
+If you're connecting from Claude.ai or Claude Desktop's Connectors panel
+instead of Claude Code, click "Connect" on the `dike` connector, it uses
+OAuth against your existing Dike account rather than a pasted API key.
+
+## Commands
+
+- `/dike-research` — the full grounded workflow: search, reason, graph audit
+  for amendments/repeals, and citation verification, in that order. Use this
+  for an actual legal question.
+- `/dike-search` — browse and compare sources for a topic without answering
+  a question.
+- `/dike-cite` — parse and verify a specific citation string against the
+  corpus.
+
 ## Tools
 
 - `dike_search` — hybrid semantic + lexical search over the corpus
