@@ -1,0 +1,10 @@
+{
+  "name": "dike-legal-search",
+  "description": "Grounded MENA legal search, reasoning, and citation resolution via Dike's remote MCP server.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Dike",
+    "email": "support@dike.it.com"
+  },
+  "homepage": "https://dike.it.com/plugins/"
+}

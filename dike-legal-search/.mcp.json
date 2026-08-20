@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "dike": {
+      "type": "http",
+      "url": "https://api.dike.it.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${DIKE_API_KEY}"
+      }
+    }
+  }
+}

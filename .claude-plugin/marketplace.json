@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "dike-plugins",
+  "version": "1.0.0",
+  "description": "Dike plugins for Claude Code: grounded MENA legal search, reasoning, and citation resolution over Saudi, Egyptian, and Emirati primary legal sources.",
+  "owner": {
+    "name": "Dike",
+    "email": "support@dike.it.com"
+  },
+  "plugins": [
+    {
+      "name": "dike-legal-search",
+      "description": "Search, cite, and reason over verified MENA legal sources directly from Claude Code, backed by Dike's grounded citation API. Every citation resolves against a real document; unresolved references are dropped, never guessed.",
+      "version": "1.0.0",
+      "source": "./dike-legal-search",
+      "category": "research"
+    }
+  ]
+}
